@@ -1,0 +1,38 @@
+
+<!-- saved from url=(0036)http://localhost/sujay/expIA2.1.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>ExpIA2.1</title>
+<style type="text/css">
+body{
+cursor: pointer;
+}
+div{
+width: 50px;
+height: 50px;
+float: left;
+margin-left: 10px;
+margin-top: 20px;
+background: red;
+}
+span{
+color: black;
+}
+</style>
+<script src="./rishab_files/jquery-latest.js.download">
+</script>
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script></head>
+<body style="zoom: 1;">
+
+<span>THERE ARE 8 ELEMENTS PRESENT8 -CLICK TO ADD MORE</span>
+<div></div>
+<script type="text/javascript">
+$(document.body).click(function(){
+$(document.body).append($("<div>"));
+var n = $("div").length;
+$("span").text("THERE ARE "+n+" ELEMENTS PRESENT"+n+" -CLICK TO ADD MORE");
+}).trigger('click');
+</script><div></div>
+
+
+ 
+<div></div><div></div><div></div><div></div><div></div><div></div></body></html>
